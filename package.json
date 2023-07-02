@@ -1,0 +1,26 @@
+{
+  "name": "enverx-be-developer-assignment",
+  "version": "1.0.0",
+  "description": "This is a RESTful API for a simple blog application. It allows users to perform CRUD (Create, Read, Update, Delete) operations on blog posts. The API is built using Node.js and Express.js, and the data is stored in a MongoDB database.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyaveer1994/enverx-be-developer-assignment.git"
+  },
+  "author": "satyaveer_singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satyaveer1994/enverx-be-developer-assignment/issues"
+  },
+  "homepage": "https://github.com/satyaveer1994/enverx-be-developer-assignment#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  }
+}
